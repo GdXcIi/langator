@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Langage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Générateur de Langage de Programmation</h1>
+    <form id="languageForm">
+        <label for="keywords">Entrez les mots-clés de votre langage:</label>
+        <input type="text" id="keywords" name="keywords" required>
+        
+        <label for="syntax">Définissez la syntaxe de votre langage:</label>
+        <input type="text" id="syntax" name="syntax" required>
+        
+        <label for="extension">Entrez l'extension de fichier (ex: .mylang):</label>
+        <input type="text" id="extension" name="extension" required>
+        
+        <button type="submit">Générer</button>
+    </form>
+    <pre id="output"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
